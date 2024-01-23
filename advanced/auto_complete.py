@@ -26,8 +26,10 @@ cityElement = driver.find_element(By.XPATH, "//li[@class='sc-12foipm-41 ehhpAW a
 inner_html = cityElement.get_attribute('innerHTML')
 print(inner_html)
 
-
-
+if textToSelect in inner_html:
+    cityElement.click()
+else:
+    print("Value not in list")
 
 time.sleep(3)
 driver.quit()
