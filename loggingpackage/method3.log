@@ -1,0 +1,4 @@
+01/24/2024 10:28:31 AM - method3 - INFO: info message
+01/24/2024 10:28:31 AM - method3 - WARNING: warn message
+01/24/2024 10:28:31 AM - method3 - ERROR: error message
+01/24/2024 10:28:31 AM - method3 - CRITICAL: critical message
